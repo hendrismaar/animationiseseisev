@@ -8,7 +8,20 @@ body {
     background-color: #093d3d;
 }
 
+.container {
+    margin: 1rem auto; 
+    width: 25%; 
+    border: 1px solid white;
+}
+
 .circle-one {
+    margin: 0 auto; 
+    padding: 2rem; 
+    width: 200px; 
+    height: 200px; 
+    background-color:red; 
+    border-radius: 50%;
+
     position: relative;
     animation: CircleOne;
     animation-duration: 5s;
@@ -21,6 +34,13 @@ body {
 }
 
 .circle-two {
+    margin: 0 auto; 
+    padding: 2rem; 
+    width: 200px; 
+    height: 200px; 
+    background-color:yellow; 
+    border-radius: 50%;
+
     opacity: 0;
     animation: CircleTwo;
     animation-duration: 3s;
@@ -32,6 +52,13 @@ body {
 }
 
 .circle-three {
+    margin: 0 auto; 
+    padding: 2rem; 
+    width: 200px; 
+    height: 200px; 
+    background-color:green; 
+    border-radius: 50%;
+
     position: relative;
     animation: CircleThree;
     animation-duration: 4s;
